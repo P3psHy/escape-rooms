@@ -1,7 +1,11 @@
 package org.sebsy.demo.escaperooms.controller;
 
 import org.sebsy.demo.escaperooms.bll.RoomService;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+@Component
+@Service("room2")
 public class EscapeRoom2Controller {
     private RoomService roomService;
 
